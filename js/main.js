@@ -13,7 +13,6 @@ var Calc = {
 			resArea.value = '';
 		} else if (this.numbPos.id === '=') {
 			var arr = resArea.value;
-			var b = parseInt(opA);
 			for (var i = 0; i < arr.length; i++) {
 				if ( arr.charAt(i) === op ) {
 						var cache = i + 1;
